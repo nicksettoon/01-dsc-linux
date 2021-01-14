@@ -12,7 +12,28 @@
     },
     "tasks": [
         {
-            "label": "test init",
+            "label": "args",
+            "type": "shell",
+            "command": "make args",
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "stdin",
+            "type": "shell",
+            "command": "make stdin",
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "file",
+            "type": "shell",
+            "command": "make file",
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "test",
             "type": "shell",
             "command": "python3 ${workspaceFolder}/main.py",
             "problemMatcher": [],
