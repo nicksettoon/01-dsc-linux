@@ -1,0 +1,15 @@
+this
+file
+is
+a
+test
+file.
+each
+line
+will
+be
+fed
+to
+main
+separately
+
