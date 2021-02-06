@@ -1,0 +1,16 @@
+#!/bin/python3
+
+import time
+import os
+
+def main():
+    fliptable = "fortune flip | cowsay -f flip"
+    resettable = "fortune reset | cowsay -f reset"
+
+    while True:
+        os.system(fliptable)
+        time.sleep(1)
+        os.system(resettable)
+
+if __name__ == "__main__":
+    main()
